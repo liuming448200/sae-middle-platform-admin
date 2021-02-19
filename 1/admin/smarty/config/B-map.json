@@ -1,0 +1,1575 @@
+{
+    "res": {
+        "B:page/index.tpl": {
+            "uri": "/template/B/page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "deps": [
+                "B:widget/main/main.js"
+            ]
+        },
+        "B:static/css/base.css": {
+            "uri": "/static/B/css/base_c0c34eb.css",
+            "type": "css"
+        },
+        "B:widget/config/config.js": {
+            "uri": "/static/B/widget/config/config_5e1124b.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/config/config"
+            }
+        },
+        "B:widget/main/main.js": {
+            "uri": "/static/B/widget/main/main_ee17eef.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/main/main"
+            },
+            "deps": [
+                "B:widget/router/router.js",
+                "B:widget/config/config.js",
+                "B:widget/webservice/webservice.js",
+                "common:widget/common/combo/toast.js",
+                "common:widget/common/combo/widget.js",
+                "common:widget/common/combo/waiting.js",
+                "common:widget/common/lazyImg/lazyImg.js",
+                "common:widget/common/picupload/picupload.js",
+                "common:widget/dialogService/dialogService.js",
+                "common:widget/common/fileupload/fileupload.js",
+                "common:widget/common/pagination/pagination.js",
+                "common:widget/userInterceptor/userInterceptor.js",
+                "common:widget/uploadFileService/uploadFileService.js"
+            ]
+        },
+        "B:widget/pages/login/login.async.js": {
+            "uri": "/static/B/widget/pages/login/login.async_ea1692e.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/login/login.async"
+            }
+        },
+        "B:widget/pages/login/login.css": {
+            "uri": "/static/B/widget/pages/login/login_34bb829.css",
+            "type": "css"
+        },
+        "B:widget/pages/login/login.js": {
+            "uri": "/static/B/widget/pages/login/login_ea46654.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/login/login.async.js"
+                ],
+                "moduleId": "B:widget/pages/login/login"
+            },
+            "deps": [
+                "B:widget/pages/login/login.css"
+            ]
+        },
+        "B:widget/pages/main/activity/activity.css": {
+            "uri": "/static/B/widget/pages/main/activity/activity_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/activity/activity.js": {
+            "uri": "/static/B/widget/pages/main/activity/activity_2ec7137.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/activity/activity"
+            },
+            "deps": [
+                "B:widget/pages/main/activity/activityService.js",
+                "B:widget/pages/main/activity/list/list.js",
+                "B:widget/pages/main/activity/add/add.js",
+                "B:widget/pages/main/activity/edit/edit.js",
+                "B:widget/pages/main/activity/preview/preview.js",
+                "B:widget/pages/main/activity/activity.css"
+            ]
+        },
+        "B:widget/pages/main/activity/activityService.js": {
+            "uri": "/static/B/widget/pages/main/activity/activityService_6793f69.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/activity/activityService"
+            }
+        },
+        "B:widget/pages/main/activity/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/activity/add/add.async_c3cb37a.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/activity/add/add.async"
+            }
+        },
+        "B:widget/pages/main/activity/add/add.css": {
+            "uri": "/static/B/widget/pages/main/activity/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/activity/add/add.js": {
+            "uri": "/static/B/widget/pages/main/activity/add/add_2072786.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/activity/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/activity/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/activity/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/activity/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/activity/edit/edit.async_be1a6f8.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/activity/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/activity/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/activity/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/activity/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/activity/edit/edit_8dc21d6.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/activity/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/activity/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/activity/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/activity/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/activity/list/list.async_13ce196.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/activity/list/list.async"
+            }
+        },
+        "B:widget/pages/main/activity/list/list.css": {
+            "uri": "/static/B/widget/pages/main/activity/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/activity/list/list.js": {
+            "uri": "/static/B/widget/pages/main/activity/list/list_d59bb8c.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/activity/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/activity/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/activity/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/activity/preview/preview.async.js": {
+            "uri": "/static/B/widget/pages/main/activity/preview/preview.async_5284dd7.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/activity/preview/preview.async"
+            }
+        },
+        "B:widget/pages/main/activity/preview/preview.css": {
+            "uri": "/static/B/widget/pages/main/activity/preview/preview_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/activity/preview/preview.js": {
+            "uri": "/static/B/widget/pages/main/activity/preview/preview_ab4172a.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/activity/preview/preview.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/activity/preview/preview"
+            },
+            "deps": [
+                "B:widget/pages/main/activity/preview/preview.css"
+            ]
+        },
+        "B:widget/pages/main/auth/action/action.css": {
+            "uri": "/static/B/widget/pages/main/auth/action/action_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/action/action.js": {
+            "uri": "/static/B/widget/pages/main/auth/action/action_fec517c.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/action/action"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/action/menuListService.js",
+                "B:widget/pages/main/auth/action/list/list.js",
+                "B:widget/pages/main/auth/action/add/add.js",
+                "B:widget/pages/main/auth/action/edit/edit.js",
+                "B:widget/pages/main/auth/action/action.css"
+            ]
+        },
+        "B:widget/pages/main/auth/action/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/action/add/add.async_c0c4daf.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/action/add/add.async"
+            }
+        },
+        "B:widget/pages/main/auth/action/add/add.css": {
+            "uri": "/static/B/widget/pages/main/auth/action/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/action/add/add.js": {
+            "uri": "/static/B/widget/pages/main/auth/action/add/add_25bafdc.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/action/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/action/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/action/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/auth/action/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/action/edit/edit.async_507f06a.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/action/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/auth/action/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/auth/action/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/action/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/auth/action/edit/edit_5e9cd4e.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/action/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/action/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/action/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/auth/action/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/action/list/list.async_7ca5df0.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/action/list/list.async"
+            }
+        },
+        "B:widget/pages/main/auth/action/list/list.css": {
+            "uri": "/static/B/widget/pages/main/auth/action/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/action/list/list.js": {
+            "uri": "/static/B/widget/pages/main/auth/action/list/list_d0b3380.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/action/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/action/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/action/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/auth/action/menuListService.js": {
+            "uri": "/static/B/widget/pages/main/auth/action/menuListService_7808063.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/action/menuListService"
+            }
+        },
+        "B:widget/pages/main/auth/auth.css": {
+            "uri": "/static/B/widget/pages/main/auth/auth_aa9f0bd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/auth.js": {
+            "uri": "/static/B/widget/pages/main/auth/auth_51278fd.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/auth"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/user/user.js",
+                "B:widget/pages/main/auth/usergroup/usergroup.js",
+                "B:widget/pages/main/auth/action/action.js",
+                "B:widget/pages/main/auth/menu/menu.js",
+                "B:widget/pages/main/auth/auth.css"
+            ]
+        },
+        "B:widget/pages/main/auth/menu/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/menu/add/add.async_001be38.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/menu/add/add.async"
+            }
+        },
+        "B:widget/pages/main/auth/menu/add/add.css": {
+            "uri": "/static/B/widget/pages/main/auth/menu/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/menu/add/add.js": {
+            "uri": "/static/B/widget/pages/main/auth/menu/add/add_e376934.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/menu/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/menu/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/menu/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/auth/menu/contentTypeService.js": {
+            "uri": "/static/B/widget/pages/main/auth/menu/contentTypeService_1678713.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/menu/contentTypeService"
+            }
+        },
+        "B:widget/pages/main/auth/menu/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/menu/edit/edit.async_e0d6de7.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/menu/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/auth/menu/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/auth/menu/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/menu/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/auth/menu/edit/edit_a9033f1.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/menu/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/menu/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/menu/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/auth/menu/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/menu/list/list.async_63a7e69.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/menu/list/list.async"
+            }
+        },
+        "B:widget/pages/main/auth/menu/list/list.css": {
+            "uri": "/static/B/widget/pages/main/auth/menu/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/menu/list/list.js": {
+            "uri": "/static/B/widget/pages/main/auth/menu/list/list_5196583.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/menu/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/menu/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/menu/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/auth/menu/menu.css": {
+            "uri": "/static/B/widget/pages/main/auth/menu/menu_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/menu/menu.js": {
+            "uri": "/static/B/widget/pages/main/auth/menu/menu_12d04fa.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/menu/menu"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/menu/contentTypeService.js",
+                "B:widget/pages/main/auth/menu/list/list.js",
+                "B:widget/pages/main/auth/menu/add/add.js",
+                "B:widget/pages/main/auth/menu/edit/edit.js",
+                "B:widget/pages/main/auth/menu/menu.css"
+            ]
+        },
+        "B:widget/pages/main/auth/user/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/user/add/add.async_dbfd808.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/user/add/add.async"
+            }
+        },
+        "B:widget/pages/main/auth/user/add/add.css": {
+            "uri": "/static/B/widget/pages/main/auth/user/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/user/add/add.js": {
+            "uri": "/static/B/widget/pages/main/auth/user/add/add_f4845a5.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/user/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/user/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/user/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/auth/user/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/user/edit/edit.async_45040df.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/user/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/auth/user/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/auth/user/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/user/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/auth/user/edit/edit_ce29551.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/user/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/user/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/user/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/auth/user/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/user/list/list.async_0bcc14d.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/user/list/list.async"
+            }
+        },
+        "B:widget/pages/main/auth/user/list/list.css": {
+            "uri": "/static/B/widget/pages/main/auth/user/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/user/list/list.js": {
+            "uri": "/static/B/widget/pages/main/auth/user/list/list_bbd7a3d.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/user/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/user/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/user/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/auth/user/user.css": {
+            "uri": "/static/B/widget/pages/main/auth/user/user_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/user/user.js": {
+            "uri": "/static/B/widget/pages/main/auth/user/user_531db98.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/user/user"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/user/usergroupListService.js",
+                "B:widget/pages/main/auth/user/list/list.js",
+                "B:widget/pages/main/auth/user/add/add.js",
+                "B:widget/pages/main/auth/user/edit/edit.js",
+                "B:widget/pages/main/auth/user/user.css"
+            ]
+        },
+        "B:widget/pages/main/auth/user/usergroupListService.js": {
+            "uri": "/static/B/widget/pages/main/auth/user/usergroupListService_0e8b3ef.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/user/usergroupListService"
+            }
+        },
+        "B:widget/pages/main/auth/usergroup/actionListService.js": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/actionListService_e7c1e72.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/usergroup/actionListService"
+            }
+        },
+        "B:widget/pages/main/auth/usergroup/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/add/add.async_0ede0f3.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/usergroup/add/add.async"
+            }
+        },
+        "B:widget/pages/main/auth/usergroup/add/add.css": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/usergroup/add/add.js": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/add/add_cdf9b01.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/usergroup/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/usergroup/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/usergroup/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/auth/usergroup/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/edit/edit.async_23d2466.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/usergroup/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/auth/usergroup/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/usergroup/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/edit/edit_29e45a6.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/usergroup/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/usergroup/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/usergroup/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/auth/usergroup/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/list/list.async_c2942a0.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/usergroup/list/list.async"
+            }
+        },
+        "B:widget/pages/main/auth/usergroup/list/list.css": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/usergroup/list/list.js": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/list/list_935047f.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/auth/usergroup/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/auth/usergroup/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/usergroup/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/auth/usergroup/usergroup.css": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/usergroup_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/auth/usergroup/usergroup.js": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/usergroup_95948e4.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/usergroup/usergroup"
+            },
+            "deps": [
+                "B:widget/pages/main/auth/usergroup/actionListService.js",
+                "B:widget/pages/main/auth/usergroup/userListService.js",
+                "B:widget/pages/main/auth/usergroup/list/list.js",
+                "B:widget/pages/main/auth/usergroup/add/add.js",
+                "B:widget/pages/main/auth/usergroup/edit/edit.js",
+                "B:widget/pages/main/auth/usergroup/usergroup.css"
+            ]
+        },
+        "B:widget/pages/main/auth/usergroup/userListService.js": {
+            "uri": "/static/B/widget/pages/main/auth/usergroup/userListService_f99ad3b.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/auth/usergroup/userListService"
+            }
+        },
+        "B:widget/pages/main/base/application/application.css": {
+            "uri": "/static/B/widget/pages/main/base/application/application_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/base/application/application.js": {
+            "uri": "/static/B/widget/pages/main/base/application/application_c7b9482.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/base/application/application"
+            },
+            "deps": [
+                "B:widget/pages/main/base/application/list/list.js",
+                "B:widget/pages/main/base/application/application.css"
+            ]
+        },
+        "B:widget/pages/main/base/application/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/base/application/list/list.async_28ea9cf.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/base/application/list/list.async"
+            }
+        },
+        "B:widget/pages/main/base/application/list/list.css": {
+            "uri": "/static/B/widget/pages/main/base/application/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/base/application/list/list.js": {
+            "uri": "/static/B/widget/pages/main/base/application/list/list_0ed68f1.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/base/application/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/base/application/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/base/application/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/base/base.css": {
+            "uri": "/static/B/widget/pages/main/base/base_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/base/base.js": {
+            "uri": "/static/B/widget/pages/main/base/base_3e6c65d.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/base/base"
+            },
+            "deps": [
+                "B:widget/pages/main/base/content/content.js",
+                "B:widget/pages/main/base/application/application.js",
+                "B:widget/pages/main/base/base.css"
+            ]
+        },
+        "B:widget/pages/main/base/content/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/base/content/add/add.async_4cc45c6.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/base/content/add/add.async"
+            }
+        },
+        "B:widget/pages/main/base/content/add/add.css": {
+            "uri": "/static/B/widget/pages/main/base/content/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/base/content/add/add.js": {
+            "uri": "/static/B/widget/pages/main/base/content/add/add_3c7280b.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/base/content/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/base/content/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/base/content/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/base/content/content.css": {
+            "uri": "/static/B/widget/pages/main/base/content/content_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/base/content/content.js": {
+            "uri": "/static/B/widget/pages/main/base/content/content_8076e10.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/base/content/content"
+            },
+            "deps": [
+                "B:widget/pages/main/base/content/list/list.js",
+                "B:widget/pages/main/base/content/add/add.js",
+                "B:widget/pages/main/base/content/edit/edit.js",
+                "B:widget/pages/main/base/content/content.css"
+            ]
+        },
+        "B:widget/pages/main/base/content/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/base/content/edit/edit.async_ddfda67.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/base/content/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/base/content/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/base/content/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/base/content/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/base/content/edit/edit_3075422.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/base/content/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/base/content/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/base/content/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/base/content/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/base/content/list/list.async_ad79b62.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/base/content/list/list.async"
+            }
+        },
+        "B:widget/pages/main/base/content/list/list.css": {
+            "uri": "/static/B/widget/pages/main/base/content/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/base/content/list/list.js": {
+            "uri": "/static/B/widget/pages/main/base/content/list/list_745a2c8.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/base/content/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/base/content/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/base/content/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/course/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/course/add/add.async_d987d2d.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/course/add/add.async"
+            }
+        },
+        "B:widget/pages/main/course/add/add.css": {
+            "uri": "/static/B/widget/pages/main/course/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/course/add/add.js": {
+            "uri": "/static/B/widget/pages/main/course/add/add_870f099.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/course/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/course/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/course/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/course/course.css": {
+            "uri": "/static/B/widget/pages/main/course/course_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/course/course.js": {
+            "uri": "/static/B/widget/pages/main/course/course_c38126f.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/course/course"
+            },
+            "deps": [
+                "B:widget/pages/main/course/courseService.js",
+                "B:widget/pages/main/course/list/list.js",
+                "B:widget/pages/main/course/add/add.js",
+                "B:widget/pages/main/course/edit/edit.js",
+                "B:widget/pages/main/course/preview/preview.js",
+                "B:widget/pages/main/course/course.css"
+            ]
+        },
+        "B:widget/pages/main/course/courseService.js": {
+            "uri": "/static/B/widget/pages/main/course/courseService_2916a16.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/course/courseService"
+            }
+        },
+        "B:widget/pages/main/course/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/course/edit/edit.async_922221e.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/course/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/course/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/course/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/course/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/course/edit/edit_c51a714.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/course/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/course/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/course/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/course/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/course/list/list.async_961488f.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/course/list/list.async"
+            }
+        },
+        "B:widget/pages/main/course/list/list.css": {
+            "uri": "/static/B/widget/pages/main/course/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/course/list/list.js": {
+            "uri": "/static/B/widget/pages/main/course/list/list_6589fe4.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/course/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/course/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/course/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/course/preview/preview.async.js": {
+            "uri": "/static/B/widget/pages/main/course/preview/preview.async_76ad70c.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/course/preview/preview.async"
+            }
+        },
+        "B:widget/pages/main/course/preview/preview.css": {
+            "uri": "/static/B/widget/pages/main/course/preview/preview_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/course/preview/preview.js": {
+            "uri": "/static/B/widget/pages/main/course/preview/preview_a221831.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/course/preview/preview.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/course/preview/preview"
+            },
+            "deps": [
+                "B:widget/pages/main/course/preview/preview.css"
+            ]
+        },
+        "B:widget/pages/main/dashboard/dashboard.js": {
+            "uri": "/static/B/widget/pages/main/dashboard/dashboard_229f309.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/dashboard/dashboard"
+            }
+        },
+        "B:widget/pages/main/english/detail/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/add/add.async_80ade91.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/detail/add/add.async"
+            }
+        },
+        "B:widget/pages/main/english/detail/add/add.css": {
+            "uri": "/static/B/widget/pages/main/english/detail/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/detail/add/add.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/add/add_6069913.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/english/detail/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/english/detail/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/english/detail/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/english/detail/detail.css": {
+            "uri": "/static/B/widget/pages/main/english/detail/detail_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/detail/detail.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/detail_d13ddf7.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/detail/detail"
+            },
+            "deps": [
+                "B:widget/pages/main/english/detail/wordTypeService.js",
+                "B:widget/pages/main/english/detail/wordDetailService.js",
+                "B:widget/pages/main/english/detail/list/list.js",
+                "B:widget/pages/main/english/detail/add/add.js",
+                "B:widget/pages/main/english/detail/edit/edit.js",
+                "B:widget/pages/main/english/detail/preview/preview.js",
+                "B:widget/pages/main/english/detail/detail.css"
+            ]
+        },
+        "B:widget/pages/main/english/detail/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/edit/edit.async_ab91bca.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/detail/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/english/detail/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/english/detail/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/detail/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/edit/edit_99e1cca.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/english/detail/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/english/detail/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/english/detail/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/english/detail/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/list/list.async_2a9089b.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/detail/list/list.async"
+            }
+        },
+        "B:widget/pages/main/english/detail/list/list.css": {
+            "uri": "/static/B/widget/pages/main/english/detail/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/detail/list/list.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/list/list_8650d45.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/english/detail/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/english/detail/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/english/detail/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/english/detail/preview/preview.async.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/preview/preview.async_3e03c73.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/detail/preview/preview.async"
+            }
+        },
+        "B:widget/pages/main/english/detail/preview/preview.css": {
+            "uri": "/static/B/widget/pages/main/english/detail/preview/preview_157f5f6.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/detail/preview/preview.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/preview/preview_b20863b.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/english/detail/preview/preview.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/english/detail/preview/preview"
+            },
+            "deps": [
+                "B:widget/pages/main/english/detail/preview/preview.css"
+            ]
+        },
+        "B:widget/pages/main/english/detail/wordDetailService.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/wordDetailService_97934e2.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/detail/wordDetailService"
+            }
+        },
+        "B:widget/pages/main/english/detail/wordTypeService.js": {
+            "uri": "/static/B/widget/pages/main/english/detail/wordTypeService_9dc056a.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/detail/wordTypeService"
+            }
+        },
+        "B:widget/pages/main/english/english.css": {
+            "uri": "/static/B/widget/pages/main/english/english_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/english.js": {
+            "uri": "/static/B/widget/pages/main/english/english_3998582.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/english"
+            },
+            "deps": [
+                "B:widget/pages/main/english/type/type.js",
+                "B:widget/pages/main/english/detail/detail.js",
+                "B:widget/pages/main/english/english.css"
+            ]
+        },
+        "B:widget/pages/main/english/type/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/english/type/add/add.async_8814e7f.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/type/add/add.async"
+            }
+        },
+        "B:widget/pages/main/english/type/add/add.css": {
+            "uri": "/static/B/widget/pages/main/english/type/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/type/add/add.js": {
+            "uri": "/static/B/widget/pages/main/english/type/add/add_45678e6.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/english/type/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/english/type/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/english/type/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/english/type/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/english/type/edit/edit.async_9da4269.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/type/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/english/type/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/english/type/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/type/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/english/type/edit/edit_8380d7b.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/english/type/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/english/type/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/english/type/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/english/type/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/english/type/list/list.async_0db51f0.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/type/list/list.async"
+            }
+        },
+        "B:widget/pages/main/english/type/list/list.css": {
+            "uri": "/static/B/widget/pages/main/english/type/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/type/list/list.js": {
+            "uri": "/static/B/widget/pages/main/english/type/list/list_4ec4ea7.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/english/type/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/english/type/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/english/type/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/english/type/type.css": {
+            "uri": "/static/B/widget/pages/main/english/type/type_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/english/type/type.js": {
+            "uri": "/static/B/widget/pages/main/english/type/type_6ce0f37.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/english/type/type"
+            },
+            "deps": [
+                "B:widget/pages/main/english/type/list/list.js",
+                "B:widget/pages/main/english/type/add/add.js",
+                "B:widget/pages/main/english/type/edit/edit.js",
+                "B:widget/pages/main/english/type/type.css"
+            ]
+        },
+        "B:widget/pages/main/main.async.js": {
+            "uri": "/static/B/widget/pages/main/main.async_7848682.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/main.async"
+            }
+        },
+        "B:widget/pages/main/main.css": {
+            "uri": "/static/B/widget/pages/main/main_6b7b029.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/main.js": {
+            "uri": "/static/B/widget/pages/main/main_235b7a3.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/main.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/main"
+            },
+            "deps": [
+                "B:widget/pages/main/dashboard/dashboard.js",
+                "B:widget/pages/main/story/story.js",
+                "B:widget/pages/main/english/english.js",
+                "B:widget/pages/main/song/song.js",
+                "B:widget/pages/main/auth/auth.js",
+                "B:widget/pages/main/base/base.js",
+                "B:widget/pages/main/course/course.js",
+                "B:widget/pages/main/activity/activity.js",
+                "B:widget/pages/main/main.css",
+                "B:widget/partial/sidebar/sidebar.less",
+                "B:widget/partial/header/header.less"
+            ]
+        },
+        "B:widget/pages/main/song/chinese/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/song/chinese/add/add.async_34fddf2.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/chinese/add/add.async"
+            }
+        },
+        "B:widget/pages/main/song/chinese/add/add.css": {
+            "uri": "/static/B/widget/pages/main/song/chinese/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/chinese/add/add.js": {
+            "uri": "/static/B/widget/pages/main/song/chinese/add/add_4d75044.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/song/chinese/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/song/chinese/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/song/chinese/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/song/chinese/chinese.css": {
+            "uri": "/static/B/widget/pages/main/song/chinese/chinese_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/chinese/chinese.js": {
+            "uri": "/static/B/widget/pages/main/song/chinese/chinese_e38e1a9.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/chinese/chinese"
+            },
+            "deps": [
+                "B:widget/pages/main/song/chinese/list/list.js",
+                "B:widget/pages/main/song/chinese/add/add.js",
+                "B:widget/pages/main/song/chinese/edit/edit.js",
+                "B:widget/pages/main/song/chinese/preview/preview.js",
+                "B:widget/pages/main/song/chinese/chinese.css"
+            ]
+        },
+        "B:widget/pages/main/song/chinese/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/song/chinese/edit/edit.async_98e0aad.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/chinese/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/song/chinese/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/song/chinese/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/chinese/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/song/chinese/edit/edit_aca983f.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/song/chinese/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/song/chinese/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/song/chinese/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/song/chinese/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/song/chinese/list/list.async_110b9fa.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/chinese/list/list.async"
+            }
+        },
+        "B:widget/pages/main/song/chinese/list/list.css": {
+            "uri": "/static/B/widget/pages/main/song/chinese/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/chinese/list/list.js": {
+            "uri": "/static/B/widget/pages/main/song/chinese/list/list_8997a6c.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/song/chinese/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/song/chinese/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/song/chinese/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/song/chinese/preview/preview.async.js": {
+            "uri": "/static/B/widget/pages/main/song/chinese/preview/preview.async_1360895.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/chinese/preview/preview.async"
+            }
+        },
+        "B:widget/pages/main/song/chinese/preview/preview.css": {
+            "uri": "/static/B/widget/pages/main/song/chinese/preview/preview_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/chinese/preview/preview.js": {
+            "uri": "/static/B/widget/pages/main/song/chinese/preview/preview_cb37638.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/song/chinese/preview/preview.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/song/chinese/preview/preview"
+            },
+            "deps": [
+                "B:widget/pages/main/song/chinese/preview/preview.css"
+            ]
+        },
+        "B:widget/pages/main/song/english/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/song/english/add/add.async_57828d3.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/english/add/add.async"
+            }
+        },
+        "B:widget/pages/main/song/english/add/add.css": {
+            "uri": "/static/B/widget/pages/main/song/english/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/english/add/add.js": {
+            "uri": "/static/B/widget/pages/main/song/english/add/add_52bc6ac.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/song/english/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/song/english/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/song/english/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/song/english/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/song/english/edit/edit.async_ba96071.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/english/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/song/english/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/song/english/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/english/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/song/english/edit/edit_3123f73.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/song/english/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/song/english/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/song/english/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/song/english/english.css": {
+            "uri": "/static/B/widget/pages/main/song/english/english_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/english/english.js": {
+            "uri": "/static/B/widget/pages/main/song/english/english_b2319cd.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/english/english"
+            },
+            "deps": [
+                "B:widget/pages/main/song/english/list/list.js",
+                "B:widget/pages/main/song/english/add/add.js",
+                "B:widget/pages/main/song/english/edit/edit.js",
+                "B:widget/pages/main/song/english/preview/preview.js",
+                "B:widget/pages/main/song/english/english.css"
+            ]
+        },
+        "B:widget/pages/main/song/english/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/song/english/list/list.async_3e5640a.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/english/list/list.async"
+            }
+        },
+        "B:widget/pages/main/song/english/list/list.css": {
+            "uri": "/static/B/widget/pages/main/song/english/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/english/list/list.js": {
+            "uri": "/static/B/widget/pages/main/song/english/list/list_3b3d122.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/song/english/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/song/english/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/song/english/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/song/english/preview/preview.async.js": {
+            "uri": "/static/B/widget/pages/main/song/english/preview/preview.async_c94fc48.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/english/preview/preview.async"
+            }
+        },
+        "B:widget/pages/main/song/english/preview/preview.css": {
+            "uri": "/static/B/widget/pages/main/song/english/preview/preview_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/english/preview/preview.js": {
+            "uri": "/static/B/widget/pages/main/song/english/preview/preview_ba08505.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/song/english/preview/preview.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/song/english/preview/preview"
+            },
+            "deps": [
+                "B:widget/pages/main/song/english/preview/preview.css"
+            ]
+        },
+        "B:widget/pages/main/song/song.css": {
+            "uri": "/static/B/widget/pages/main/song/song_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/song/song.js": {
+            "uri": "/static/B/widget/pages/main/song/song_c4e4691.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/song"
+            },
+            "deps": [
+                "B:widget/pages/main/song/songService.js",
+                "B:widget/pages/main/song/chinese/chinese.js",
+                "B:widget/pages/main/song/english/english.js",
+                "B:widget/pages/main/song/song.css"
+            ]
+        },
+        "B:widget/pages/main/song/songService.js": {
+            "uri": "/static/B/widget/pages/main/song/songService_651bc60.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/song/songService"
+            }
+        },
+        "B:widget/pages/main/story/add/add.async.js": {
+            "uri": "/static/B/widget/pages/main/story/add/add.async_1aa3af4.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/story/add/add.async"
+            }
+        },
+        "B:widget/pages/main/story/add/add.css": {
+            "uri": "/static/B/widget/pages/main/story/add/add_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/story/add/add.js": {
+            "uri": "/static/B/widget/pages/main/story/add/add_fbdba0d.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/story/add/add.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/story/add/add"
+            },
+            "deps": [
+                "B:widget/pages/main/story/add/add.css"
+            ]
+        },
+        "B:widget/pages/main/story/edit/edit.async.js": {
+            "uri": "/static/B/widget/pages/main/story/edit/edit.async_dc842f3.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/story/edit/edit.async"
+            }
+        },
+        "B:widget/pages/main/story/edit/edit.css": {
+            "uri": "/static/B/widget/pages/main/story/edit/edit_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/story/edit/edit.js": {
+            "uri": "/static/B/widget/pages/main/story/edit/edit_63c4222.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/story/edit/edit.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/story/edit/edit"
+            },
+            "deps": [
+                "B:widget/pages/main/story/edit/edit.css"
+            ]
+        },
+        "B:widget/pages/main/story/list/list.async.js": {
+            "uri": "/static/B/widget/pages/main/story/list/list.async_8f7f124.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/story/list/list.async"
+            }
+        },
+        "B:widget/pages/main/story/list/list.css": {
+            "uri": "/static/B/widget/pages/main/story/list/list_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/story/list/list.js": {
+            "uri": "/static/B/widget/pages/main/story/list/list_0b00859.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/story/list/list.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/story/list/list"
+            },
+            "deps": [
+                "B:widget/pages/main/story/list/list.css"
+            ]
+        },
+        "B:widget/pages/main/story/preview/preview.async.js": {
+            "uri": "/static/B/widget/pages/main/story/preview/preview.async_5fe869d.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/story/preview/preview.async"
+            }
+        },
+        "B:widget/pages/main/story/preview/preview.css": {
+            "uri": "/static/B/widget/pages/main/story/preview/preview_66bf133.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/story/preview/preview.js": {
+            "uri": "/static/B/widget/pages/main/story/preview/preview_88c15c6.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/main/story/preview/preview.async.js"
+                ],
+                "moduleId": "B:widget/pages/main/story/preview/preview"
+            },
+            "deps": [
+                "B:widget/pages/main/story/preview/preview.css"
+            ]
+        },
+        "B:widget/pages/main/story/story.css": {
+            "uri": "/static/B/widget/pages/main/story/story_d41d8cd.css",
+            "type": "css"
+        },
+        "B:widget/pages/main/story/story.js": {
+            "uri": "/static/B/widget/pages/main/story/story_f0b3d50.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/story/story"
+            },
+            "deps": [
+                "B:widget/pages/main/story/storyService.js",
+                "B:widget/pages/main/story/list/list.js",
+                "B:widget/pages/main/story/add/add.js",
+                "B:widget/pages/main/story/edit/edit.js",
+                "B:widget/pages/main/story/preview/preview.js",
+                "B:widget/pages/main/story/story.css"
+            ]
+        },
+        "B:widget/pages/main/story/storyService.js": {
+            "uri": "/static/B/widget/pages/main/story/storyService_58a94fe.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/main/story/storyService"
+            }
+        },
+        "B:widget/pages/reset/reset.async.js": {
+            "uri": "/static/B/widget/pages/reset/reset.async_f239f3f.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/pages/reset/reset.async"
+            }
+        },
+        "B:widget/pages/reset/reset.css": {
+            "uri": "/static/B/widget/pages/reset/reset_3867315.css",
+            "type": "css"
+        },
+        "B:widget/pages/reset/reset.js": {
+            "uri": "/static/B/widget/pages/reset/reset_9fd3aeb.js",
+            "type": "js",
+            "extras": {
+                "async": [
+                    "B:widget/pages/reset/reset.async.js"
+                ],
+                "moduleId": "B:widget/pages/reset/reset"
+            },
+            "deps": [
+                "B:widget/pages/reset/reset.css"
+            ]
+        },
+        "B:widget/partial/header/header.less": {
+            "uri": "/static/B/widget/partial/header/header_9ce31c7.css",
+            "type": "css"
+        },
+        "B:widget/partial/sidebar/sidebar.less": {
+            "uri": "/static/B/widget/partial/sidebar/sidebar_d43ab80.css",
+            "type": "css"
+        },
+        "B:widget/router/router.js": {
+            "uri": "/static/B/widget/router/router_afb6d80.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/router/router"
+            },
+            "deps": [
+                "B:widget/pages/login/login.js",
+                "B:widget/pages/reset/reset.js",
+                "B:widget/pages/main/main.js"
+            ]
+        },
+        "B:widget/webservice/webservice.js": {
+            "uri": "/static/B/widget/webservice/webservice_f4c9081.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "B:widget/webservice/webservice"
+            }
+        }
+    },
+    "pkg": {}
+}

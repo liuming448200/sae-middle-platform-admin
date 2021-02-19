@@ -1,0 +1,14 @@
+define('B:widget/pages/reset/reset', function(require, exports, module) {
+
+  module.exports = {
+  	url: '/reset',
+  	template: "<!--\r\n    @require \"B:widget/pages/reset/reset.css\"\r\n-->\r\n\r\n<div class=\"reset-container\">\r\n\t<table>\r\n\t\t<td>\r\n\t\t\t<h1>方向教育</h1>\r\n\t\t\t<div class=\"well\">\r\n\t\t\t\t<form role=\"form\" name=\"checkPhoneForm\" novalidate ng-submit=\"checkPhoneSubmit()\" ng-hide=\"second\">\r\n\t\t\t\t\t<div class=\"form-group\">\r\n\t\t\t      <input type=\"text\" class=\"form-control\" name=\"mobile\" ng-model=\"mobile\" ng-trim=\"true\" required ng-minlength=\"11\" ng-maxlength=\"11\" placeholder=\"请输入手机号码\">\r\n\t\t\t   \t</div>\r\n\t\t\t   \t<div class=\"form-group\">\r\n\t\t\t   \t\t<table>\r\n\t\t\t   \t\t\t<td>\r\n\t\t\t   \t\t\t\t<input type=\"text\" class=\"form-control\" name=\"verifyCode\" ng-model=\"verifyCode\" ng-trim=\"true\" required ng-minlength=\"6\" ng-maxlength=\"6\" placeholder=\"请输入验证码\">\r\n\t\t\t   \t\t\t</td>\r\n\t\t\t   \t\t\t<td style=\"padding-left: 5px;\">\r\n\t\t\t   \t\t\t\t<button type=\"button\" class=\"btn btn-success btn-sm\" ng-click=\"sendVerifyCode()\" ng-disabled=\"sendDisabled\">\r\n\t\t\t   \t\t\t\t\t<span ng-hide=\"sendDisabled\">发送验证码</span>\r\n\t\t\t\t\t\t\t\t\t<span ng-show=\"sendDisabled\"><i>{{countdown}}</i>s重新发送</span>\r\n\t\t\t   \t\t\t\t</button>\r\n\t\t\t   \t\t\t</td>\r\n\t\t\t   \t\t</table>\r\n\t\t\t   \t</div>\r\n\t\t\t   \t<div class=\"form-group\">\r\n\t\t\t      <div class=\"next-btn\">\r\n\t\t\t        <button type=\"submit\" class=\"btn btn-success btn-lg\">下一步</button>\r\n\t\t\t      </div>\r\n\t\t\t    </div>\r\n\t\t\t\t</form>\r\n\t\t\t\t<form role=\"form\" name=\"changePasswordForm\" novalidate ng-submit=\"changePasswordSubmit()\" ng-show=\"second\">\r\n\t\t\t\t\t<div class=\"form-group\">\r\n\t\t\t      <input type=\"password\" class=\"form-control\" name=\"password\" ng-model=\"password\" ng-trim=\"true\" required ng-maxlength=\"20\" placeholder=\"请输入新密码\">\r\n\t\t\t   \t</div>\r\n\t\t\t   \t<div class=\"form-group\">\r\n\t\t\t      <input type=\"password\" class=\"form-control\" name=\"newpassword\" ng-model=\"newpassword\" ng-trim=\"true\" required ng-maxlength=\"20\" placeholder=\"请再次输入新密码\">\r\n\t\t\t   \t</div>\r\n\t\t\t   \t<div class=\"form-group\">\r\n\t\t\t      <div class=\"confirm-btn\">\r\n\t\t\t        <button type=\"submit\" class=\"btn btn-success btn-lg\">确认修改</button>\r\n\t\t\t      </div>\r\n\t\t\t    </div>\r\n\t\t\t\t</form>\r\n\t\t\t\t<div class=\"down-container\">\r\n\t\t\t\t\t<a ui-sref=\"login\">\r\n\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-link\">想起来了</button>\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</td>\r\n\t</table>\r\n</div>\r\n",
+  	controller: ['$scope', '$injector', function ($scope, $injector) {
+    	require.async(['B:widget/pages/reset/reset.async'], function(ctrl) {
+  			$injector.invoke(ctrl, this, {'$scope': $scope});
+  		});
+    }]
+  };
+  
+
+});

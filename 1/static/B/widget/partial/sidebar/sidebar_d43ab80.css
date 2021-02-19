@@ -1,0 +1,9 @@
+#sidebar-wrapper .sidebar .sidebar-list ul {
+  float: left;
+}
+#sidebar-wrapper .sidebar .sidebar-list li {
+  float: left;
+}
+#sidebar-wrapper .sidebar .sidebar-list li a {
+  padding-left: 2em;
+}
